@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding:0 ;
+}
+nav{
+	background-image: url(img/about-bg.jpg);
+	height: 40vh;
+	font-style: italic;
+}
+nav h1{
+	color: white;
+	font-size: 4.5rem;
+	padding-top: 40px;
+	margin-left: 40px;
+}
+nav p{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	margin-left: 40px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+	list-style: none;
+	font-size: 25px;
+	display: inline-block;
+	padding: 20px;
+	margin-right: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #F8A40F;
+	border:1px solid;
+}
+nav ul li a:hover{
+	color: #31C6F5;
+}
+.active{
+	color: #EDF5F9;
+}
+#title{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 20px;
+	text-decoration: underline #FBC91F;
+}
+.about p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+}
+.about1 img{
+    float: right;
+    height: 400px;
+    width: 700px;
+    padding: 20px;
+    border-radius: 8%;
+}
+.about{
+/*	background-image: url(img/party.jpg);*/
+}
+.service1{
+	 padding-left: 250px;
+	 padding-right: 250px;
+}
+.service2 h2{
+	padding: 20px;
+}
+.service2 a {
+	text-decoration: none;
+	color: #FE0A31;
+}
+.service2 p{
+	height: 300px;
+	line-height: 30px;
+	text-align: just;
+	text-align: justify;
+}
+.service2 img{
+	float: left;
+	height: 300px;
+	width: 400px;
+	padding: 20px;
+	border-radius: 50px;
+}
+.service2 img:hover{
+	height: 400px;
+	width: 500px;
+	transition: .6s;
+}
+.product1{
+	display: inline-block;
+	margin: 20px;
+}
+.product1 img{
+	height: 250px;
+	width: 250px;
+}
+.product1 h2{
+    text-align: center;
+}
+.product1 p{
+	text-align: center;
+}
+.table{
+	padding-left: 30px;
+}
+table{
+	width: 800px;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+table,tr,th,td{
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+table,tr,th,td a{
+	text-decoration: none;
+}
+table img{
+    height: 100px;
+    width: 120px;
+
+}
+.chef1 img{
+	height: 180px;
+    width: 200px;
+    border-radius: 250%;
+}
+.chef1{
+	display: inline-block;
+	padding:22px;
+}
+.chef1 h3{
+	text-align: center;
+
+}
+.contact{
+    display: inline-flex;
+    height: auto;
+}
+.contact div{
+	max-width: 600px;
+	margin: 50px;
+	text-decoration: none;
+	height: auto;
+}
+.contact p{
+	color: white;
+}
+.contact h2{
+    padding-bottom: 20px;
+    color: orange;
+}
+.contact1 ul li{
+	list-style: none;
+	color: white;
+}
+footer{
+	background-image: url(img/about-bg.jpg);
+}
+#product{
+	background-image: url(img/pbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#product h2 p{
+    border: 2px solid;
+}
+#product img:hover{
+	transform: scale(1.2);	
+	transition: 1s;
+}
+#service{
+	background-color: #F8D028;
+}
+#about{
+	background-color: #B6FEC7;
+}
+
